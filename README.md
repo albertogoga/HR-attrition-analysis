@@ -1,6 +1,6 @@
 #HR Attrition Analysis — Predicting & Preventing Employee Turnover
 
-##Business Problem
+#Business Problem
 > "Why are employees leaving? Can we predict attrition early and target retention efforts?"
 
 ## Data Science Approach
@@ -13,6 +13,7 @@
 ## Key Insights (From Results)
 - **Model performance**:
   - Random Forest AUC: **0.811** → Strong predictive power
+  - Logistic Regression: **0.805** → strong predictive power 
   - XGBoost AUC: **0.779** → Slightly lower but more interpretable via SHAP
 - **Top 3 global drivers of attrition (SHAP)**:
   1. `OverTime` — Highest impact (mean |SHAP| = 0.62)
