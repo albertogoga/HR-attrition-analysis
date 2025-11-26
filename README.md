@@ -21,7 +21,17 @@
   3. `StockOptionLevel` — Third (0.38)
 - **Actionable insight**: Employees working overtime with low income or stock options are at highest risk.
 
-## How to Run
-1. Clone repo:  
-   ```bash
-   git clone https://github.com/alber/hr-attrition-analysis.git
+## How to Run (100% Reproducible on Windows)
+
+### Prerequisites
+- Windows 10/11  
+- **Anaconda 2023.09 or later** (includes Python 3.11.5)  
+  → [Download Anaconda (64-bit)](https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Windows-x86_64.exe)  
+  →  During install: **Check “Add to PATH”** and **“Register Anaconda”**
+
+### Steps
+1. **Clone this repo**  
+   Open **Anaconda Prompt** (search in Start menu) and run:
+   ```powershell
+   git clone https://github.com/albertogoga/hr-attrition-analysis.git
+   cd hr-attrition-analysis
